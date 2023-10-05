@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Capitulo_2
+{
+    public class MaiorEMenor
+    {
+        public Produto Menor { get; set; }
+        public Produto Maior { get; set; }
+
+        public void Encontra(CarrinhoDeCompras carrinho)
+        {
+            foreach (Produto produto in carrinho.Produtos)
+            {
+                if (Menor == null || produto.Valor < Menor.Valor)
+                    Menor = produto;
+
+                else if (Maior == null || produto.Valor > Maior.Valor)
+                    Maior = produto;
+            }
+        }
+    }
+}

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NUnit.Framework;
+using System;
 
 namespace Capitulo_2
 {
@@ -16,6 +17,6 @@ namespace Capitulo_2
 
             Console.WriteLine("O menor produto: " + algoritmo.Menor.Nome);
             Console.WriteLine("O maior produto: " + algoritmo.Maior.Nome);
-        }
+        }    
     }
 }

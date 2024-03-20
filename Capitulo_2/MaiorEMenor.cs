@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Capitulo_2
+﻿namespace Capitulo_2
 {
     public class MaiorEMenor
     {
@@ -16,7 +12,7 @@ namespace Capitulo_2
                 if (Menor == null || produto.Valor < Menor.Valor)
                     Menor = produto;
 
-                else if (Maior == null || produto.Valor > Maior.Valor)
+                if (Maior == null || produto.Valor > Maior.Valor)
                     Maior = produto;
             }
         }

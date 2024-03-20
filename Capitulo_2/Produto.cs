@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Capitulo_2
+﻿namespace Capitulo_2
 {
     public class Produto
     {

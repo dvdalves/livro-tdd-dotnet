@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capitulo_2", "Capitulo_2\Capitulo_2.csproj", "{9352D092-77F6-4EEE-A563-C1A0FB5C63E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_2", "Capitulo_2\Chapter_2.csproj", "{9352D092-77F6-4EEE-A563-C1A0FB5C63E2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capitulo_3", "Capitulo_3\Capitulo_3.csproj", "{A32F6A20-2155-4782-95B4-A2541C547FB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_3", "Capitulo_3\Chapter_3.csproj", "{A32F6A20-2155-4782-95B4-A2541C547FB0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capitulo_4", "Capitulo_4\Capitulo_4.csproj", "{4C44B020-12BC-42BD-BD47-D595EEFDF8F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_4", "Capitulo_4\Chapter_4.csproj", "{4C44B020-12BC-42BD-BD47-D595EEFDF8F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

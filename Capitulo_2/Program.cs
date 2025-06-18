@@ -1,21 +1,20 @@
 ﻿using System;
 
-namespace Capitulo_2
+namespace Chapter_2;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
-            carrinho.Adiciona(new Produto("Liquidificador", 250.0));
-            carrinho.Adiciona(new Produto("Geladeira", 450.0));
-            carrinho.Adiciona(new Produto("Jogo de Pratos", 70.0));
+        ShoppingCart shoppingCart = new();
+        shoppingCart.AddProduct(new Product("Blender", 250.0));
+        shoppingCart.AddProduct(new Product("Refrigerator", 450.0));
+        shoppingCart.AddProduct(new Product("Dish Set", 70.0));
 
-            MaiorEMenor algoritmo = new MaiorEMenor();
-            algoritmo.Encontra(carrinho);
+        MaxAndMin maxMinFinder = new();
+        maxMinFinder.Find(shoppingCart);
 
-            Console.WriteLine("O menor produto: " + algoritmo.Menor.Nome);
-            Console.WriteLine("O maior produto: " + algoritmo.Maior.Nome);
-        }    
+        Console.WriteLine("The cheapest product: " + maxMinFinder.Min.Name);
+        Console.WriteLine("The most expensive product: " + maxMinFinder.Max.Name);
     }
 }
